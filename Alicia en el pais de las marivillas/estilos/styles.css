@@ -1,0 +1,91 @@
+
+/* Diseño general */
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #f1e8ff;
+    color: #30234b;
+    font-family: Georgia, serif;
+    line-height: 1.6;
+}
+
+header {
+    padding: 25px;
+    text-align: center;
+    background-color: #492c70;
+    color: white;
+    border-radius: 12px;
+}
+
+main {
+    max-width: 850px;
+    margin: 20px auto;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border: 2px solid #c6a7e8;
+    border-radius: 12px;
+}
+
+h2 {
+    color: #633c8c;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input, select {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #8d79a9;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 12px 18px;
+    background-color: #633c8c;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #3d245b;
+}
+
+#resultadoPocion,
+#resultadoMerienda,
+#resultadoReina {
+    overflow-wrap: anywhere;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #f8f3ff;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+}
+
+/* Adaptación básica a pantallas pequeñas */
+@media screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    header, section {
+        padding: 15px;
+    }
+}
