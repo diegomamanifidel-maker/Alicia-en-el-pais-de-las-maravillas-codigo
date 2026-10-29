@@ -4,17 +4,6 @@ Este proyecto consiste en una página web interactiva inspirada en la historia A
 
 El objetivo es demostrar el funcionamiento de estas tecnologías mediante situaciones relacionadas con los personajes y elementos del cuento.
 Objetivos
-- Construir una página web utilizando HTML5.
-- Aplicar estilos mediante CSS3.
-- Utilizar JavaScript para procesar datos ingresados por el usuario.
-- Validar los datos antes de realizar los cálculos.
-- Manipular el DOM para mostrar resultados sin recargar la página.
-- Aplicar estructuras condicionales, switch y ciclos for.
-Tecnologías utilizadas
-- HTML5: estructura y formularios de la página.
-- CSS3: diseño visual, colores, fondos y presentación del contenido.
-- JavaScript: cálculos, validaciones, estructuras de control y manipulación del DOM.
-Ejercicios desarrollados
 1. La poción de Alicia
 Este ejercicio calcula la altura final de Alicia después de beber una poción mágica.
 
